@@ -1,0 +1,240 @@
+/*Mobile and Global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Exo', sans-serif;
+}
+header {
+    height: 60vh;
+    background-image: url(images/banner.gif);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-attachment:fixed;
+    background-position: center center;
+    background color: white;
+}
+nav {
+    position: sticky;
+    background-color: white;
+    padding-bottom: 1%;
+}
+nav a {
+    color: #33CCCC;
+    font-size: 1.3em;
+    font-weight:600;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+nav a:hover {
+    color: #FFCC33;
+}
+nav img {
+    width: 200px;
+    padding-bottom: 5px;
+}
+#bottomnav {
+    position: sticky;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 10%;
+}
+#bottomnav a {
+    color: white;
+    font-size: 0.9em;
+    font-weight:600;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+#bottomnav a:hover {
+    color: #FFCC33;
+}
+#container {
+    margin: 0 auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a.images img {
+    width: 75%;
+}
+a.images {
+    opacity: 1;
+}
+a.images:hover span {
+    opacity: 1;
+    display: block;
+}
+img.over {
+    display: none;
+}
+a.images:hover img.out {
+    display: none;
+}
+a.images:hover img.over {
+    display: block;
+    margin-bottom: 0.75%;
+}
+h1 {
+    font-size: 2em;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+h4 {
+    padding-top: 100px;
+    padding-left: 5%;
+    font-size: 2em;
+    color: white;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    height: 70vh;
+}
+#Mission p, #More p {
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    color: gray;
+}
+footer {
+    background-color: #33CCCC;
+    margin-top: 5%;
+}
+footer p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding-top: 10px;
+}
+form {
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 25%;
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+}
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-family: 'Exo', sans-serif;
+}
+input[type=submit]:hover {
+    background-color: #FFCC33;
+}
+input, textarea {
+    background-color: whitesmoke;
+    font-size: 1.1em;
+    padding: 5px;
+}
+#end {
+    padding-top: 1%;
+   font-size: 0.8em;
+   text-align: center;
+}
+
+/*Destop Style*/
+
+@media only screen and (min-width: 481px){
+header {
+    height: 75vh;
+    background-size: 100%;
+    background-size: cover;
+    background-image: url(images/banner.jpg);
+} 
+header:hover {
+    background-image: url(images/banner.gif);
+}
+nav {
+    color: white;
+    opacity: 0.9;
+    padding-bottom: 0%;
+    }   
+nav a {
+    font-size: 1.2em;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4 {
+    font-size: 2.5em;
+    padding-left: 29.5%;
+}
+#Mission, #More {
+    margin-top: 5%;
+    margin-bottom: 5%;   
+}
+#Mission p, #More p {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+footer p{
+    padding-left: 30%;
+    padding-right: 30%;
+}   
+form {
+    line-height: 3em;
+    font-size: 1.2em;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+#bottomnav a {
+    font-size: 1.2em;
+}
+#bottomnav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+#end {
+    padding-top: 1%;
+   font-size: 0.8em;
+   text-align: center;
+}
+    
+}
