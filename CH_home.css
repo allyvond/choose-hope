@@ -13,7 +13,7 @@ body {
 }
 header {
     height: 60vh;
-    background-image: url(images/banner.gif);
+    background-image: url(banner.gif);
     background-repeat: no-repeat;
     background-size: 160%;
     background-attachment:fixed;
