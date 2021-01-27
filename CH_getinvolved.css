@@ -149,12 +149,12 @@ input, textarea {
 @media only screen and (min-width: 481px){
 header {
     height: 75vh;
-    background-image: url(images/banner5.jpg);
+    background-image: url(banner5.jpg);
     background-size: cover;
     margin-bottom: 3%;
 }
 header:hover {
-    background-image: url(images/banner5.gif);
+    background-image: url(banner5.gif);
 }
 nav {
     color: white;
