@@ -176,10 +176,10 @@ header {
     height: 75vh;
     background-size: 100%;
     background-size: cover;
-    background-image: url(images/banner.jpg);
+    background-image: url(banner.jpg);
 } 
 header:hover {
-    background-image: url(images/banner.gif);
+    background-image: url(banner.gif);
 }
 nav {
     color: white;
